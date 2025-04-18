@@ -8,7 +8,7 @@ export default function Producto({ producto, addToCart }) {
         <h1 className="text-2xl font-bold">{producto.name}</h1>
         <p className="text-xl font-bold">${producto.price}</p>
         <button
-          className="bg-blue-500 text-white p-2 rounded-lg"
+          className="bg-blue-500 text-white p-2 rounded-lg cursor-pointer"
           onClick={() => addToCart(producto)}
         >
           Agregar al carrito
